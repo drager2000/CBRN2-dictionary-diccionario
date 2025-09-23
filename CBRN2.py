@@ -9,7 +9,7 @@ import random
 class PersonalDictionaryGenerator:
     def __init__(self, root):
         self.root = root
-        self.root.title("☣️CBRN☣️ местные разведывательные силы ")
+        self.root.title(" CBRN ")
         self.root.geometry("1280x700")
         self.root.configure(bg="#0b442b")
         
@@ -45,7 +45,7 @@ class PersonalDictionaryGenerator:
         
         # Título
         title_label = ttk.Label(main_frame, 
-                               text="☣️CBRN десять ☣️",
+                               text=" CBRN ",
                                font=('Arial', 19, 'bold'),
                                foreground="#05531A")
         title_label.pack(pady=(0, 20))
@@ -702,3 +702,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
